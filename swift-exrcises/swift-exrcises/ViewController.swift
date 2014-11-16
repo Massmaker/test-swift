@@ -19,12 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-override func viewDidAppear(animated:bool)
-{
-	super.viewDidAppear(animated)
-NSLog("Hello there")
-}
+    
+    override func viewDidAppear(animated: Bool)
+    {
+        super.viewDidAppear(animated)
+        NSLog("Hello there")
+    }
 
 
 }
